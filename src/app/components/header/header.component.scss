@@ -1,0 +1,62 @@
+.header {
+    background-color: #fccb00;
+    color: black;
+    font-family: 'Sailors';
+    display: flex;
+    font-size: x-large;
+    padding: 10px 0;
+    label {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.logo {
+    img {
+        width: 60px;
+        border-radius: 50%;
+    }
+}
+
+.discord {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    right: 0;
+    height: 15%;
+    div {
+        display: flex;
+        align-items: center;
+        background-color:#5766f2;
+        color: black;
+        padding: 10px;
+        margin-right: 30px;
+        border-radius: 10px;
+        transition: all 0.5s;
+        img {
+            width: 25px;
+            margin: 5px 10px;
+        }
+        label {
+            margin: 5px 10px;
+        }
+    }
+}
+
+.discord:hover {
+    div {
+        box-shadow: 0 0 10px #5766f2;
+        transform: skewX(0) scale(1.1) !important;
+        cursor: pointer;
+        img {
+            cursor: pointer;
+        }
+        label {
+            cursor: pointer;
+        }
+    }
+}
